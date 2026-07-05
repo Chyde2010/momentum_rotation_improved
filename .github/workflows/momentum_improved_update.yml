@@ -1,0 +1,42 @@
+name: Improved Momentum Update
+
+on:
+  schedule:
+    # Runs at 08:15 UTC every day (10 mins after baseline)
+    - cron: '15 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ensure data directory exists
+        run: mkdir -p data
+
+      - name: Run improved momentum update script
+        run: python src/momentum_improved_update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Improved Momentum Bot"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Daily update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
