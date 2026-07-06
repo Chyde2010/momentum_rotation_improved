@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-06 19:14 UTC
+**Last updated:** 2026-07-06 19:23 UTC
 
 ---
 
