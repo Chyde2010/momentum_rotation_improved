@@ -186,44 +186,49 @@ print(f'Holdings:        {len(portfolio_df)} positions')
 # =============================================================================
 
 def fetch_prices(tickers, period='2y'):
-    print(f'\nFetching price data for {len(tickers)} tickers...')
-    try:
-        raw = yf.download(
-            tickers, period=period,
-            auto_adjust=True, progress=False, threads=True
-        )
-        if isinstance(raw.columns, pd.MultiIndex):
-            closes = raw['Close']
-        else:
-            closes = raw[['Close']]
-            closes.columns = tickers[:1]
-        closes = closes.dropna(how='all')
-        print(f'  Retrieved {len(closes)} days for {closes.shape[1]} tickers')
-        return closes
-    except Exception as e:
-        print(f'  Fetch error: {e}')
+    """
+    Fetch prices one ticker at a time to avoid Yahoo Finance rate limiting.
+    Bulk downloads from GitHub Actions are blocked; individual requests work.
+    """
+    print(f'\nFetching price data for {len(tickers)} tickers (individual mode)...')
+    all_closes = {}
+    success = 0
+    failed  = 0
+
+    for ticker in tickers:
+        try:
+            data = yf.Ticker(ticker).history(period=period, auto_adjust=True)
+            if not data.empty and len(data) > 50:
+                all_closes[ticker] = data['Close']
+                success += 1
+            else:
+                failed += 1
+        except Exception:
+            failed += 1
+        time.sleep(0.5)  # Respectful rate limiting
+
+    if not all_closes:
+        print(f'  ERROR: No data retrieved ({failed} failures)')
         return pd.DataFrame()
+
+    closes = pd.DataFrame(all_closes)
+    print(f'  Retrieved {len(closes)} days for {success} tickers ({failed} failed)')
+    return closes
 
 
 def get_current_prices(tickers):
+    """Fetch latest prices individually to avoid rate limiting."""
     prices = {}
     if not tickers:
         return prices
-    try:
-        data = yf.download(
-            tickers, period='5d',
-            auto_adjust=True, progress=False, threads=True
-        )
-        if isinstance(data.columns, pd.MultiIndex):
-            closes = data['Close']
-        else:
-            closes = data[['Close']]
-            if len(tickers) == 1:
-                closes.columns = tickers
-        latest = closes.dropna(how='all').iloc[-1]
-        prices = {str(k): float(v) for k, v in latest.items() if pd.notna(v)}
-    except Exception as e:
-        print(f'  Price fetch error: {e}')
+    for ticker in tickers:
+        try:
+            data = yf.Ticker(ticker).history(period='5d', auto_adjust=True)
+            if not data.empty:
+                prices[ticker] = float(data['Close'].iloc[-1])
+        except Exception:
+            pass
+        time.sleep(0.3)
     return prices
 
 
