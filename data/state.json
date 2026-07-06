@@ -1,0 +1,9 @@
+{
+  "nav": 10000.0,
+  "cash": 10000.0,
+  "last_rebalance": null,
+  "total_trades": 0,
+  "start_date": "2026-07-06",
+  "start_nav": 10000.0,
+  "regime": "FULL"
+}
