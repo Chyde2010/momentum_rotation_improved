@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-07 11:18 UTC
+**Last updated:** 2026-07-07 21:50 UTC
 
 ---
 
@@ -38,9 +38,9 @@ When below, position sizes are halved and the rest is held in cash.
 | CAGR (annualised) | +0.00% |
 | Sharpe ratio | Insufficient data |
 | Max drawdown | 0.0% |
-| Total trades | 0 |
+| Total trades | 5 |
 | Days running | 1 |
-| Last rebalance | Not yet |
+| Last rebalance | 2026-07-07 |
 | Current regime | FULL |
 
 ---
@@ -49,9 +49,13 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| — | — | — | — | — | — | — |
+| HUM | 2026-07-07 | $394.62 | $394.62 | $1,578.48 | +0.0% | +62.17% |
+| GOOGL | 2026-07-07 | $367.03 | $367.03 | $1,468.12 | +0.0% | +52.12% |
+| GOOG | 2026-07-07 | $363.62 | $363.62 | $1,454.48 | +0.0% | +50.46% |
+| CSCO | 2026-07-07 | $111.79 | $111.79 | $1,788.64 | +0.0% | +48.04% |
+| JNJ | 2026-07-07 | $267.24 | $267.24 | $1,603.44 | +0.0% | +44.27% |
 
-**Cash:** $10,000.00
+**Cash:** $2,106.84
 *(Cash above normal levels indicates regime filter is active)*
 
 ---
@@ -60,7 +64,11 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | Action | Symbol | Shares | Price | Value | Composite Momentum |
 |------|--------|--------|--------|-------|-------|-------------------|
-| — | — | — | — | — | — | — |
+| 2026-07-07 | BUY | HUM | 4 | $394.62 | $1,578.48 | +62.17% |
+| 2026-07-07 | BUY | GOOGL | 4 | $367.03 | $1,468.12 | +52.12% |
+| 2026-07-07 | BUY | GOOG | 4 | $363.62 | $1,454.48 | +50.46% |
+| 2026-07-07 | BUY | CSCO | 16 | $111.79 | $1,788.64 | +48.04% |
+| 2026-07-07 | BUY | JNJ | 6 | $267.24 | $1,603.44 | +44.27% |
 
 
 ---
