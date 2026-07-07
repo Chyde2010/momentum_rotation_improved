@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-06 19:23 UTC
+**Last updated:** 2026-07-07 11:18 UTC
 
 ---
 
@@ -37,9 +37,9 @@ When below, position sizes are halved and the rest is held in cash.
 | Total return | +0.00% |
 | CAGR (annualised) | +0.00% |
 | Sharpe ratio | Insufficient data |
-| Max drawdown | Insufficient data |
+| Max drawdown | 0.0% |
 | Total trades | 0 |
-| Days running | 0 |
+| Days running | 1 |
 | Last rebalance | Not yet |
 | Current regime | FULL |
 
@@ -70,6 +70,7 @@ When below, position sizes are halved and the rest is held in cash.
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
 | 2026-07-06 | $10,000.00 | +0.00% | 0 | FULL |
+| 2026-07-07 | $10,000.00 | +0.00% | 0 | FULL |
 
 
 ---
