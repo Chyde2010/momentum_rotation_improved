@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-15 10:14 UTC
+**Last updated:** 2026-07-16 10:20 UTC
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Current Market Regime
 
-**🔴 REDUCED — SPY below 200-SMA, 50% position sizes, rest in cash**
+**⚪ FULL — SPY above 200-SMA, full position sizes**
 
 The regime filter checks SPY against its 200-day moving average daily.
 When below, position sizes are halved and the rest is held in cash.
@@ -33,15 +33,15 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $10,024.82 |
-| Total return | +0.25% |
-| CAGR (annualised) | +10.58% |
+| Current NAV | $9,972.92 |
+| Total return | -0.27% |
+| CAGR (annualised) | -9.42% |
 | Sharpe ratio | Insufficient data |
-| Max drawdown | -0.2% |
+| Max drawdown | -0.5% |
 | Total trades | 5 |
-| Days running | 9 |
+| Days running | 10 |
 | Last rebalance | 2026-07-07 |
-| Current regime | REDUCED |
+| Current regime | FULL |
 
 ---
 
@@ -49,11 +49,11 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| HUM | 2026-07-07 | $394.62 | $406.00 | $1,624.00 | +2.9% | +62.17% |
-| GOOGL | 2026-07-07 | $367.03 | $352.51 | $1,410.04 | -4.0% | +52.12% |
-| GOOG | 2026-07-07 | $363.62 | $357.33 | $1,429.32 | -1.7% | +50.46% |
-| CSCO | 2026-07-07 | $111.79 | $119.25 | $1,908.00 | +6.7% | +48.04% |
-| JNJ | 2026-07-07 | $267.24 | $257.77 | $1,546.62 | -3.5% | +44.27% |
+| HUM | 2026-07-07 | $394.62 | $407.78 | $1,631.12 | +3.3% | +62.17% |
+| GOOGL | 2026-07-07 | $367.03 | $370.92 | $1,483.68 | +1.1% | +52.12% |
+| GOOG | 2026-07-07 | $363.62 | $370.21 | $1,480.84 | +1.8% | +50.46% |
+| CSCO | 2026-07-07 | $111.79 | $111.77 | $1,788.32 | -0.0% | +48.04% |
+| JNJ | 2026-07-07 | $267.24 | $247.02 | $1,482.12 | -7.6% | +44.27% |
 
 **Cash:** $2,106.84
 *(Cash above normal levels indicates regime filter is active)*
@@ -85,6 +85,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-07-13 | $10,007.40 | +0.01% | 5 | FULL |
 | 2026-07-14 | $9,998.18 | -0.09% | 5 | FULL |
 | 2026-07-15 | $10,024.82 | +0.27% | 5 | REDUCED |
+| 2026-07-16 | $9,972.92 | -0.52% | 5 | FULL |
 
 
 ---
