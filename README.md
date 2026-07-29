@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-28 10:43 UTC
+**Last updated:** 2026-07-29 10:47 UTC
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Current Market Regime
 
-**⚪ FULL — SPY above 200-SMA, full position sizes**
+**🔴 REDUCED — SPY below 200-SMA, 50% position sizes, rest in cash**
 
 The regime filter checks SPY against its 200-day moving average daily.
 When below, position sizes are halved and the rest is held in cash.
@@ -35,13 +35,13 @@ When below, position sizes are halved and the rest is held in cash.
 | Starting NAV | $10,000.00 |
 | Current NAV | $9,672.78 |
 | Total return | -3.27% |
-| CAGR (annualised) | -42.42% |
+| CAGR (annualised) | -41.02% |
 | Sharpe ratio | Insufficient data |
 | Max drawdown | -4.3% |
 | Total trades | 5 |
-| Days running | 22 |
+| Days running | 23 |
 | Last rebalance | 2026-07-07 |
-| Current regime | FULL |
+| Current regime | REDUCED |
 
 ---
 
@@ -77,7 +77,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-07-15 | $10,024.82 | +0.27% | 5 | REDUCED |
 | 2026-07-16 | $9,972.92 | -0.52% | 5 | FULL |
 | 2026-07-17 | $9,740.22 | -2.33% | 5 | FULL |
 | 2026-07-20 | $9,787.68 | +0.49% | 5 | FULL |
@@ -87,6 +86,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-07-24 | $9,588.74 | -1.78% | 5 | FULL |
 | 2026-07-27 | $9,626.56 | +0.39% | 5 | FULL |
 | 2026-07-28 | $9,672.78 | +0.48% | 5 | FULL |
+| 2026-07-29 | $9,672.78 | +0.00% | 5 | REDUCED |
 
 
 ---
