@@ -4,3 +4,9 @@ date,action,symbol,shares,price,value,reason,composite_momentum
 2026-07-07,BUY,GOOG,4,363.62,1454.48,Rebalance — top 5 composite (FULL regime),50.46
 2026-07-07,BUY,CSCO,16,111.79,1788.64,Rebalance — top 5 composite (FULL regime),48.04
 2026-07-07,BUY,JNJ,6,267.24,1603.44,Rebalance — top 5 composite (FULL regime),44.27
+2026-08-03,SELL,GOOGL,4,356.13,1424.52,Rebalance — dropped from top 5,52.12
+2026-08-03,SELL,GOOG,4,356.65,1426.6,Rebalance — dropped from top 5,50.46
+2026-08-03,SELL,JNJ,6,256.35,1538.1,Rebalance — dropped from top 5,44.27
+2026-08-03,BUY,UNH,4,414.4,1657.6,Rebalance — top 5 composite (FULL regime),44.46
+2026-08-03,BUY,CAT,2,814.81,1629.62,Rebalance — top 5 composite (FULL regime),39.23
+2026-08-03,BUY,MRK,13,130.2,1692.6,Rebalance — top 5 composite (FULL regime),38.27

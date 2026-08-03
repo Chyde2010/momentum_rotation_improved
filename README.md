@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-07-31 10:49 UTC
+**Last updated:** 2026-08-03 11:40 UTC
 
 ---
 
@@ -33,14 +33,14 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $9,594.72 |
-| Total return | -4.05% |
-| CAGR (annualised) | -45.34% |
-| Sharpe ratio | Insufficient data |
+| Current NAV | $9,807.34 |
+| Total return | -1.93% |
+| CAGR (annualised) | -22.40% |
+| Sharpe ratio | -1.921 |
 | Max drawdown | -4.3% |
-| Total trades | 5 |
-| Days running | 25 |
-| Last rebalance | 2026-07-07 |
+| Total trades | 11 |
+| Days running | 28 |
+| Last rebalance | 2026-08-03 |
 | Current regime | FULL |
 
 ---
@@ -49,13 +49,13 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| HUM | 2026-07-07 | $394.62 | $366.66 | $1,466.64 | -7.1% | +62.17% |
-| GOOGL | 2026-07-07 | $367.03 | $333.66 | $1,334.64 | -9.1% | +52.12% |
-| GOOG | 2026-07-07 | $363.62 | $333.68 | $1,334.72 | -8.2% | +50.46% |
-| CSCO | 2026-07-07 | $111.79 | $113.56 | $1,816.96 | +1.6% | +48.04% |
-| JNJ | 2026-07-07 | $267.24 | $255.82 | $1,534.92 | -4.3% | +44.27% |
+| HUM | 2026-07-07 | $394.62 | $363.86 | $1,455.44 | -7.8% | +55.82% |
+| CSCO | 2026-07-07 | $111.79 | $115.99 | $1,855.84 | +3.8% | +50.08% |
+| UNH | 2026-08-03 | $414.40 | $414.40 | $1,657.60 | +0.0% | +44.46% |
+| CAT | 2026-08-03 | $814.81 | $814.81 | $1,629.62 | +0.0% | +39.23% |
+| MRK | 2026-08-03 | $130.20 | $130.20 | $1,692.60 | +0.0% | +38.27% |
 
-**Cash:** $2,106.84
+**Cash:** $1,516.24
 *(Cash above normal levels indicates regime filter is active)*
 
 ---
@@ -64,11 +64,16 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | Action | Symbol | Shares | Price | Value | Composite Momentum |
 |------|--------|--------|--------|-------|-------|-------------------|
-| 2026-07-07 | BUY | HUM | 4 | $394.62 | $1,578.48 | +62.17% |
 | 2026-07-07 | BUY | GOOGL | 4 | $367.03 | $1,468.12 | +52.12% |
 | 2026-07-07 | BUY | GOOG | 4 | $363.62 | $1,454.48 | +50.46% |
 | 2026-07-07 | BUY | CSCO | 16 | $111.79 | $1,788.64 | +48.04% |
 | 2026-07-07 | BUY | JNJ | 6 | $267.24 | $1,603.44 | +44.27% |
+| 2026-08-03 | SELL | GOOGL | 4 | $356.13 | $1,424.52 | +52.12% |
+| 2026-08-03 | SELL | GOOG | 4 | $356.65 | $1,426.60 | +50.46% |
+| 2026-08-03 | SELL | JNJ | 6 | $256.35 | $1,538.10 | +44.27% |
+| 2026-08-03 | BUY | UNH | 4 | $414.40 | $1,657.60 | +44.46% |
+| 2026-08-03 | BUY | CAT | 2 | $814.81 | $1,629.62 | +39.23% |
+| 2026-08-03 | BUY | MRK | 13 | $130.20 | $1,692.60 | +38.27% |
 
 
 ---
@@ -77,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-07-20 | $9,787.68 | +0.49% | 5 | FULL |
 | 2026-07-21 | $9,777.20 | -0.11% | 5 | FULL |
 | 2026-07-22 | $9,796.10 | +0.19% | 5 | FULL |
 | 2026-07-23 | $9,762.38 | -0.34% | 5 | FULL |
@@ -87,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-07-29 | $9,672.78 | +0.00% | 5 | REDUCED |
 | 2026-07-30 | $9,651.22 | -0.22% | 5 | FULL |
 | 2026-07-31 | $9,594.72 | -0.59% | 5 | FULL |
+| 2026-08-03 | $9,807.34 | +2.22% | 5 | FULL |
 
 
 ---
