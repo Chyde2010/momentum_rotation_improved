@@ -1,9 +1,9 @@
 {
-  "nav": 9807.34,
+  "nav": 9960.0,
   "cash": 1516.24,
   "last_rebalance": "2026-08-03",
   "total_trades": 11,
   "start_date": "2026-07-06",
   "start_nav": 10000.0,
-  "regime": "REDUCED"
+  "regime": "FULL"
 }

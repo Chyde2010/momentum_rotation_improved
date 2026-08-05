@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-08-04 10:48 UTC
+**Last updated:** 2026-08-05 10:45 UTC
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Current Market Regime
 
-**🔴 REDUCED — SPY below 200-SMA, 50% position sizes, rest in cash**
+**⚪ FULL — SPY above 200-SMA, full position sizes**
 
 The regime filter checks SPY against its 200-day moving average daily.
 When below, position sizes are halved and the rest is held in cash.
@@ -33,15 +33,15 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $9,807.34 |
-| Total return | -1.93% |
-| CAGR (annualised) | -21.72% |
-| Sharpe ratio | -1.892 |
+| Current NAV | $9,960.00 |
+| Total return | -0.40% |
+| CAGR (annualised) | -4.76% |
+| Sharpe ratio | -0.523 |
 | Max drawdown | -4.3% |
 | Total trades | 11 |
-| Days running | 29 |
+| Days running | 30 |
 | Last rebalance | 2026-08-03 |
-| Current regime | REDUCED |
+| Current regime | FULL |
 
 ---
 
@@ -49,11 +49,11 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| HUM | 2026-07-07 | $394.62 | $363.86 | $1,455.44 | -7.8% | +55.82% |
-| CSCO | 2026-07-07 | $111.79 | $115.99 | $1,855.84 | +3.8% | +50.08% |
-| UNH | 2026-08-03 | $414.40 | $414.40 | $1,657.60 | +0.0% | +44.46% |
-| CAT | 2026-08-03 | $814.81 | $814.81 | $1,629.62 | +0.0% | +39.23% |
-| MRK | 2026-08-03 | $130.20 | $130.20 | $1,692.60 | +0.0% | +38.27% |
+| HUM | 2026-07-07 | $394.62 | $362.16 | $1,448.64 | -8.2% | +55.82% |
+| CSCO | 2026-07-07 | $111.79 | $121.74 | $1,947.84 | +8.9% | +50.08% |
+| UNH | 2026-08-03 | $414.40 | $407.55 | $1,630.20 | -1.6% | +44.46% |
+| CAT | 2026-08-03 | $814.81 | $876.54 | $1,753.08 | +7.6% | +39.23% |
+| MRK | 2026-08-03 | $130.20 | $128.00 | $1,664.00 | -1.7% | +38.27% |
 
 **Cash:** $1,516.24
 *(Cash above normal levels indicates regime filter is active)*
@@ -82,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-07-22 | $9,796.10 | +0.19% | 5 | FULL |
 | 2026-07-23 | $9,762.38 | -0.34% | 5 | FULL |
 | 2026-07-24 | $9,588.74 | -1.78% | 5 | FULL |
 | 2026-07-27 | $9,626.56 | +0.39% | 5 | FULL |
@@ -92,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-07-31 | $9,594.72 | -0.59% | 5 | FULL |
 | 2026-08-03 | $9,807.34 | +2.22% | 5 | FULL |
 | 2026-08-04 | $9,807.34 | +0.00% | 5 | REDUCED |
+| 2026-08-05 | $9,960.00 | +1.56% | 5 | FULL |
 
 
 ---
