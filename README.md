@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-09-07 14:13 UTC
+**Last updated:** 2026-09-08 12:50 UTC
 
 ---
 
@@ -35,11 +35,11 @@ When below, position sizes are halved and the rest is held in cash.
 | Starting NAV | $10,000.00 |
 | Current NAV | $9,963.14 |
 | Total return | -0.37% |
-| CAGR (annualised) | -2.12% |
-| Sharpe ratio | -0.365 |
+| CAGR (annualised) | -2.08% |
+| Sharpe ratio | -0.367 |
 | Max drawdown | -4.3% |
 | Total trades | 17 |
-| Days running | 63 |
+| Days running | 64 |
 | Last rebalance | 2026-09-01 |
 | Current regime | FULL |
 
@@ -82,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-08-25 | $10,002.02 | -0.06% | 5 | FULL |
 | 2026-08-26 | $10,095.63 | +0.94% | 5 | FULL |
 | 2026-08-27 | $10,056.16 | -0.39% | 5 | FULL |
 | 2026-08-28 | $9,917.91 | -1.37% | 5 | FULL |
@@ -92,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-09-03 | $9,883.48 | +0.26% | 5 | FULL |
 | 2026-09-04 | $9,977.27 | +0.95% | 5 | FULL |
 | 2026-09-07 | $9,963.14 | -0.14% | 5 | FULL |
+| 2026-09-08 | $9,963.14 | +0.00% | 5 | FULL |
 
 
 ---
