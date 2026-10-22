@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-10-21 13:43 UTC
+**Last updated:** 2026-10-22 13:44 UTC
 
 ---
 
@@ -33,13 +33,13 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $9,433.59 |
-| Total return | -5.66% |
-| CAGR (annualised) | -18.04% |
-| Sharpe ratio | -1.570 |
+| Current NAV | $9,399.75 |
+| Total return | -6.00% |
+| CAGR (annualised) | -18.88% |
+| Sharpe ratio | -1.645 |
 | Max drawdown | -8.4% |
 | Total trades | 25 |
-| Days running | 107 |
+| Days running | 108 |
 | Last rebalance | 2026-10-01 |
 | Current regime | FULL |
 
@@ -49,11 +49,11 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| CAT | 2026-08-03 | $814.81 | $734.45 | $1,468.90 | -9.9% | +29.61% |
-| TXN | 2026-10-01 | $279.45 | $284.15 | $1,704.90 | +1.7% | +36.47% |
-| MRK | 2026-10-01 | $144.91 | $148.75 | $1,636.31 | +2.6% | +35.38% |
-| CSCO | 2026-10-01 | $107.96 | $107.43 | $1,611.45 | -0.5% | +33.96% |
-| TMO | 2026-10-01 | $665.24 | $688.71 | $1,377.42 | +3.5% | +27.66% |
+| CAT | 2026-08-03 | $814.81 | $710.96 | $1,421.92 | -12.8% | +29.61% |
+| TXN | 2026-10-01 | $279.45 | $281.98 | $1,691.85 | +0.9% | +36.47% |
+| MRK | 2026-10-01 | $144.91 | $151.59 | $1,667.49 | +4.6% | +35.38% |
+| CSCO | 2026-10-01 | $107.96 | $106.03 | $1,590.38 | -1.8% | +33.96% |
+| TMO | 2026-10-01 | $665.24 | $696.75 | $1,393.50 | +4.7% | +27.66% |
 
 **Cash:** $1,634.61
 *(Cash above normal levels indicates regime filter is active)*
@@ -82,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-10-08 | $9,542.63 | -1.10% | 5 | FULL |
 | 2026-10-09 | $9,602.76 | +0.63% | 5 | FULL |
 | 2026-10-12 | $9,582.88 | -0.21% | 5 | FULL |
 | 2026-10-13 | $9,455.38 | -1.33% | 5 | FULL |
@@ -92,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-10-19 | $9,306.16 | -1.19% | 5 | FULL |
 | 2026-10-20 | $9,266.74 | -0.42% | 5 | FULL |
 | 2026-10-21 | $9,433.59 | +1.80% | 5 | FULL |
+| 2026-10-22 | $9,399.75 | -0.36% | 5 | FULL |
 
 
 ---
