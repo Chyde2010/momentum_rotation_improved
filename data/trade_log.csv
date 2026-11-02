@@ -24,3 +24,9 @@ date,action,symbol,shares,price,value,reason,composite_momentum
 2026-10-01,BUY,MRK,11,144.91,1594.01,Rebalance — top 5 composite (FULL regime),35.38
 2026-10-01,BUY,CSCO,15,107.9599,1619.4,Rebalance — top 5 composite (FULL regime),33.96
 2026-10-01,BUY,TMO,2,665.235,1330.47,Rebalance — top 5 composite (FULL regime),27.66
+2026-11-02,SELL,CAT,2,621.6,1243.2,Rebalance — dropped from top 5,29.61
+2026-11-02,SELL,CSCO,15,103.13,1546.95,Rebalance — dropped from top 5,33.96
+2026-11-02,SELL,TMO,2,685.83,1371.66,Rebalance — dropped from top 5,27.66
+2026-11-02,BUY,AMGN,3,466.28,1398.84,Rebalance — top 5 composite (FULL regime),41.82
+2026-11-02,BUY,XOM,9,180.785,1627.07,Rebalance — top 5 composite (FULL regime),35.57
+2026-11-02,BUY,GILD,9,170.005,1530.05,Rebalance — top 5 composite (FULL regime),34.6

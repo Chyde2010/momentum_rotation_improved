@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-10-30 15:00 UTC
+**Last updated:** 2026-11-02 18:14 UTC
 
 ---
 
@@ -33,14 +33,14 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $9,340.13 |
-| Total return | -6.60% |
-| CAGR (annualised) | -19.33% |
-| Sharpe ratio | -1.646 |
+| Current NAV | $9,280.59 |
+| Total return | -7.19% |
+| CAGR (annualised) | -20.47% |
+| Sharpe ratio | -1.769 |
 | Max drawdown | -8.4% |
-| Total trades | 25 |
-| Days running | 116 |
-| Last rebalance | 2026-10-01 |
+| Total trades | 31 |
+| Days running | 119 |
+| Last rebalance | 2026-11-02 |
 | Current regime | FULL |
 
 ---
@@ -49,13 +49,13 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| CAT | 2026-08-03 | $814.81 | $637.49 | $1,274.98 | -21.8% | +29.61% |
-| TXN | 2026-10-01 | $279.45 | $302.80 | $1,816.80 | +8.3% | +36.47% |
-| MRK | 2026-10-01 | $144.91 | $148.65 | $1,635.10 | +2.6% | +35.38% |
-| CSCO | 2026-10-01 | $107.96 | $105.29 | $1,579.35 | -2.5% | +33.96% |
-| TMO | 2026-10-01 | $665.24 | $699.64 | $1,399.29 | +5.2% | +27.66% |
+| TXN | 2026-10-01 | $279.45 | $308.27 | $1,849.62 | +10.3% | +44.19% |
+| MRK | 2026-10-01 | $144.91 | $148.59 | $1,634.55 | +2.5% | +45.01% |
+| AMGN | 2026-11-02 | $466.28 | $466.28 | $1,398.84 | +0.0% | +41.82% |
+| XOM | 2026-11-02 | $180.78 | $180.78 | $1,627.07 | +0.0% | +35.57% |
+| GILD | 2026-11-02 | $170.00 | $170.00 | $1,530.05 | +0.0% | +34.60% |
 
-**Cash:** $1,634.61
+**Cash:** $1,240.46
 *(Cash above normal levels indicates regime filter is active)*
 
 ---
@@ -64,16 +64,16 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | Action | Symbol | Shares | Price | Value | Composite Momentum |
 |------|--------|--------|--------|-------|-------|-------------------|
-| 2026-09-01 | BUY | AMGN | 4 | $429.88 | $1,719.52 | +33.26% |
-| 2026-09-01 | BUY | CSX | 35 | $50.51 | $1,767.85 | +29.99% |
-| 2026-10-01 | SELL | HUM | 4 | $381.00 | $1,524.00 | +47.98% |
-| 2026-10-01 | SELL | FDX | 5 | $284.87 | $1,424.35 | +33.43% |
-| 2026-10-01 | SELL | AMGN | 4 | $413.39 | $1,653.56 | +33.26% |
-| 2026-10-01 | SELL | CSX | 35 | $46.15 | $1,615.08 | +29.99% |
 | 2026-10-01 | BUY | TXN | 6 | $279.45 | $1,676.73 | +36.47% |
 | 2026-10-01 | BUY | MRK | 11 | $144.91 | $1,594.01 | +35.38% |
 | 2026-10-01 | BUY | CSCO | 15 | $107.96 | $1,619.40 | +33.96% |
 | 2026-10-01 | BUY | TMO | 2 | $665.24 | $1,330.47 | +27.66% |
+| 2026-11-02 | SELL | CAT | 2 | $621.60 | $1,243.20 | +29.61% |
+| 2026-11-02 | SELL | CSCO | 15 | $103.13 | $1,546.95 | +33.96% |
+| 2026-11-02 | SELL | TMO | 2 | $685.83 | $1,371.66 | +27.66% |
+| 2026-11-02 | BUY | AMGN | 3 | $466.28 | $1,398.84 | +41.82% |
+| 2026-11-02 | BUY | XOM | 9 | $180.78 | $1,627.07 | +35.57% |
+| 2026-11-02 | BUY | GILD | 9 | $170.00 | $1,530.05 | +34.60% |
 
 
 ---
@@ -82,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-10-19 | $9,306.16 | -1.19% | 5 | FULL |
 | 2026-10-20 | $9,266.74 | -0.42% | 5 | FULL |
 | 2026-10-21 | $9,433.59 | +1.80% | 5 | FULL |
 | 2026-10-22 | $9,399.75 | -0.36% | 5 | FULL |
@@ -92,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-10-28 | $9,524.65 | +0.87% | 5 | FULL |
 | 2026-10-29 | $9,482.54 | -0.44% | 5 | FULL |
 | 2026-10-30 | $9,340.13 | -1.50% | 5 | FULL |
+| 2026-11-02 | $9,280.59 | -0.64% | 5 | FULL |
 
 
 ---
