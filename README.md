@@ -5,7 +5,7 @@
 > Running in parallel with `momentum_rotation_test` to compare performance.
 > Updated automatically every day at 08:15 UTC via GitHub Actions.
 
-**Last updated:** 2026-11-17 17:35 UTC
+**Last updated:** 2026-11-18 17:11 UTC
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Current Market Regime
 
-**⚪ FULL — SPY above 200-SMA, full position sizes**
+**🔴 REDUCED — SPY below 200-SMA, 50% position sizes, rest in cash**
 
 The regime filter checks SPY against its 200-day moving average daily.
 When below, position sizes are halved and the rest is held in cash.
@@ -33,15 +33,15 @@ When below, position sizes are halved and the rest is held in cash.
 | Metric | Value |
 |--------|-------|
 | Starting NAV | $10,000.00 |
-| Current NAV | $9,005.42 |
-| Total return | -9.95% |
-| CAGR (annualised) | -24.82% |
-| Sharpe ratio | -2.030 |
-| Max drawdown | -12.0% |
+| Current NAV | $8,850.10 |
+| Total return | -11.50% |
+| CAGR (annualised) | -28.13% |
+| Sharpe ratio | -2.288 |
+| Max drawdown | -12.5% |
 | Total trades | 31 |
-| Days running | 134 |
+| Days running | 135 |
 | Last rebalance | 2026-11-02 |
-| Current regime | FULL |
+| Current regime | REDUCED |
 
 ---
 
@@ -49,11 +49,11 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Symbol | Entry Date | Entry Price | Current Price | Value | Unrealised | Composite Momentum |
 |--------|-----------|------------|--------------|-------|------------|-------------------|
-| TXN | 2026-10-01 | $279.45 | $294.41 | $1,766.46 | +5.3% | +44.19% |
-| MRK | 2026-10-01 | $144.91 | $143.87 | $1,582.57 | -0.7% | +45.01% |
-| AMGN | 2026-11-02 | $466.28 | $459.22 | $1,377.66 | -1.5% | +41.82% |
-| XOM | 2026-11-02 | $180.78 | $167.44 | $1,506.96 | -7.4% | +35.57% |
-| GILD | 2026-11-02 | $170.00 | $170.15 | $1,531.31 | +0.1% | +34.60% |
+| TXN | 2026-10-01 | $279.45 | $290.21 | $1,741.26 | +3.9% | +44.19% |
+| MRK | 2026-10-01 | $144.91 | $139.82 | $1,538.07 | -3.5% | +45.01% |
+| AMGN | 2026-11-02 | $466.28 | $448.62 | $1,345.86 | -3.8% | +41.82% |
+| XOM | 2026-11-02 | $180.78 | $161.73 | $1,455.57 | -10.5% | +35.57% |
+| GILD | 2026-11-02 | $170.00 | $169.88 | $1,528.88 | -0.1% | +34.60% |
 
 **Cash:** $1,240.46
 *(Cash above normal levels indicates regime filter is active)*
@@ -82,7 +82,6 @@ When below, position sizes are halved and the rest is held in cash.
 
 | Date | NAV | Daily Return | Holdings | Regime |
 |------|-----|-------------|----------|--------|
-| 2026-11-04 | $9,241.62 | -0.13% | 5 | FULL |
 | 2026-11-05 | $9,167.60 | -0.80% | 5 | FULL |
 | 2026-11-06 | $8,898.93 | -2.93% | 5 | FULL |
 | 2026-11-09 | $9,024.61 | +1.41% | 5 | FULL |
@@ -92,6 +91,7 @@ When below, position sizes are halved and the rest is held in cash.
 | 2026-11-13 | $9,074.68 | -1.53% | 5 | FULL |
 | 2026-11-16 | $9,061.63 | -0.14% | 5 | FULL |
 | 2026-11-17 | $9,005.42 | -0.62% | 5 | FULL |
+| 2026-11-18 | $8,850.10 | -1.72% | 5 | REDUCED |
 
 
 ---
